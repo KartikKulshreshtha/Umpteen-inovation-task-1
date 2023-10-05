@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.first-content{
+    background: linear-gradient(256.17deg,#fff6d6 1.04%,rgba(255,255,255,0) 100%);
+    position: relative;
+    top: -30px;
+    height: 37.875rem;
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 27px;
+}
+.main-body{
+    position: absolute;
+    width: 100%;
+}
+.Logo{
+    height: 38px;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin: 30px;
+    
+}
+.nav-links{
+    cursor: pointer;
+}
+.mobile-number{
+    cursor: pointer;
+    background: #e94143;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 26px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.center-content h1{
+    text-align: center;
+    font-size: 68px;
+    width: 893px;
+    margin: auto;
+}
+.center-content{
+    margin-top: 114px;
+}
+.shareImages{
+    width: 893px;
+    margin: auto;
+}
+.center-img2{
+    width: 639px;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 61px;
+}
+.center-img3{
+    margin-left: 610px;
+}
+.top-heading{
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+}
+.content-reaching{
+    display: flex;
+    justify-content: space-evenly;
+}
+.react-out-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-name, .email, .bussiness, .last-name, .phone, .website{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    outline: none;
+}
+
+.labels{
+    color: rgb(169 169 169);
+    font-weight: 700;
+}
+.first-div{
+    margin-left: -27px;
+    margin-right: 75px;
+    width: 340px;
+}
+iframe{
+    height: 828px;
+}
+.services{
+    color: rgb(169 169 169);
+}
+.services input{
+    display: flex;
+    flex-direction: column;
+}
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 17px
+}
+.contact-information{
+    background-color: #fffae1;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.contact-information .main-heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62px;
+}
+.card-1, .card-3{
+    background-color: rgb(194 249 255 / 70%);
+    width: 201px;
+    transition: 1.5s;
+    padding-top: 84px;
+    padding-left: 48px;
+    height: fit-content;
+    padding-right: 48px;
+    text-align: center;
+    border-radius: 26px;
+    padding-bottom: 57px;
+}
+.card-1:hover, .card-3:hover{
+    background-color: rgb(255 213 252 / 70%);
+}
+.card-2, .card-4{
+    background-color: rgb(255 213 252 / 70%);
+    width: 201px;
+    transition: 1.5s;
+    padding-top: 84px;
+    padding-left: 48px;
+    height: fit-content;
+    padding-right: 48px;
+    text-align: center;
+    border-radius: 26px;
+    padding-bottom: 57px;
+}
+.card-2:hover, .card-4:hover{
+    background-color: rgb(194 249 255 / 70%);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon svg{
+    width: 100px;
+    height: 100px;
+}
