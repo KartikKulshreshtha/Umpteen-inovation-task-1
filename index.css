@@ -39,6 +39,10 @@ body{
 }
 .nav-links{
     cursor: pointer;
+    transition: 0.5s;
+}
+.nav-links:hover{
+    border-bottom: 3px solid rgb(255, 222, 76);
 }
 .mobile-number{
     cursor: pointer;
@@ -182,4 +186,82 @@ iframe{
 .icon svg{
     width: 100px;
     height: 100px;
+}
+
+.social-links{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.social-links h1{
+    font-size: 56px;
+}
+
+.facebook i{
+    text-align: center;
+    color: #3b5998;
+    font-size: 75px;
+    margin-left: 18px;
+        cursor: pointer;
+        transition: 0.5s
+}
+
+.twitter i{
+    font-size: 75px;
+    color: #1da1f2;
+    margin-left: 18px;
+        cursor: pointer;
+        transition: 0.5s
+}
+.youtube i{
+    font-size: 75px;
+color: #cd201f;
+margin-left: 18px;
+    cursor: pointer;
+    transition: 0.5s
+}
+.pinterest i{
+color: #bd081c;
+font-size: 75px;
+margin-left: 18px;
+    cursor: pointer;
+    transition: 0.5s
+}
+.instagram i{
+color: #262626;
+font-size: 75px;
+margin-left: 18px;
+    cursor: pointer;
+    transition: 0.5s
+}
+.linkedin i{
+    font-size: 75px;
+    color: #0077b5;
+    transition: 0.5s;
+    margin-left: 18px;
+        cursor: pointer;
+}
+
+.carousel-container {
+    width: 55%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.carousel-image {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.parteners-worked{
+    text-align: center;
+    font-size: 47px;
+    margin-top: 225px;
+}
+.map-image{
+    margin: auto;
+    width: 80%;
+    margin-top: 112px;
 }
